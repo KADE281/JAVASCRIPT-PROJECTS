@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB INTERACTIVE</title>
+</head>
+<body> 
+    <h1 style="text-align: center;"><u>WEB JOURNEY!</u></h1><br><br>
+
+    <h1 style="text-align: center;">Exercise1</h2>
+    <h2>What javascript can do?</h2>
+    <p id="show" >I will salute the students when you click the button</p>
+    <button type="button" onclick="document.getElementById('show').innerHTML='Hello Guys. This is javascript!. How are you?'">Greet</button><hr>
+
+
+    <h2 style="text-align: center;">Exercise2</h2>
+    <h2>This is the car shop</h2>
+    <img id="cha" src="car4.jpeg" alt="car4" width="300" height="200"><br>
+    
+    <button onclick='document.getElementById("cha").src="car1.jpeg"'>car1</button>
+    <button onclick='document.getElementById("cha").src="car2.jpeg"'>car2</button>
+    <button onclick='document.getElementById("cha").src="car3.jpeg"'>car3</button><hr>
+
+
+    <h2 style="text-align: center;">Exercise3</h2>
+    <p id="show_me">I am text</p>
+    <button type="button" onclick="document.getElementById('show_me').style.fontSize='20px'">Increase Size</button>
+    <button type="button" onclick="document.getElementById('show_me').style.fontSize='15px'">Decrease Size</button><hr>
+
+
+    <h2 style="text-align: center;">Exercise 4</h2>
+    <p id="text">I am text</p>
+    <button type="button" onclick="document.getElementById('text').style.display='none'">hide a text</button>
+    <button type="button" onclick="document.getElementById('text').style.display='block'">display a text</button><hr>
+
+
+<h2 style="text-align: center;">Exercise5</h2>
+<h1>Javscript are variables variables</h1>
+    <h2>let us use this example x,y and z are variables</h2>
+    <p id="demo"></p>
+    <script> 
+        let x=30;
+        let y=16;
+        let z=x+y;
+        document.getElementById("demo").textContent="The value of z is " + z;
+        console.log(typeof x);
+    </script>
+    <hr>
+    <h2 style="text-align: center;">Exercise 6</h2>
+<h3>To check the legth of the text </h3>
+    <p id="show1"></p>
+    <script>
+        let text="RWANDA NZIZA GAHOREHO !!!";
+        
+        document.getElementById("show1").textContent="The lenght of the text 'RWANDA NZIZA GAHOREHO!!!' are : " + text.length;
+    </script>
+    
+    
+</body>
+</html>

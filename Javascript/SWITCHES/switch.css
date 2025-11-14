@@ -1,0 +1,39 @@
+body{
+    margin:0px;
+    
+}
+#container{
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border:1px solid green;
+    border-radius: 8px;
+    background-color: rgba(137, 141, 139, 0.836);
+    font-size: small;
+}
+#title{
+    color: rgb(2, 28, 92);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#mylabel{
+    font-size: 20px;
+    font-weight: bold;
+    cursor:pointer;
+    
+}
+#result{
+
+    color:green;
+    font-size: 30px;
+
+}
+#guessbtn{
+    background-color: rgb(7, 97, 7);
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
