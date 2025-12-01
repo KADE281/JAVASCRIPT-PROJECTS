@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+}
+h3{
+    color: blue;
+    margin: 30px;
+}
+#container{
+    font-family: Arial,sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: hsl(0, 15%, 88%);
+    border-radius: 9px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    
+}
+
+button{
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background: blue;
+    color: white;
+    font-weight: bold;  
+    cursor: pointer;
+}
+button:hover{
+     background: rgba(2, 2, 99, 0.721);
+}
+button:active{
+     background: rgba(48, 36, 46, 0.733);
+}
+input{
+    font-size: 1.5rem;
+    width: 150px;
+    text-align: center;
+    font-weight:bold;
+}
+#diceResult{
+    border:1px solid rgb(206, 206, 215) ;
+    border-color: rgb(87, 83, 84);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right:5% ;
+    margin-bottom: 5%;
+
+}
+#diceImages{
+    border:1px solid rgb(206, 206, 215) ;
+    border-color: rgb(87, 83, 84);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow:0px px 1px rgb(206, 197, 197);
+    margin-left: 5%;
+    margin-right:5% ;
+
+}

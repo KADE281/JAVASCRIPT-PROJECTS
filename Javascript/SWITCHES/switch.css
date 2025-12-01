@@ -1,0 +1,47 @@
+body{
+    margin:0px;
+    
+}
+
+#container{
+    min-height: 100%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    border:1px solid green;
+    border-radius: 8px;
+    background-color: rgba(137, 141, 139, 0.836);
+    font-size: small;
+}
+#title{
+  
+    color: rgb(2, 81, 10);
+    font-family:Arial, sans-serif
+}
+
+#mylabel{
+    
+    font-size: 30px;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+#day{
+    max-width: fit-content;
+    font-size: 15px;
+    text-align: center;
+}
+#result{
+
+    color:green;
+    font-size: 30px;
+
+}
+#guessbtn{
+    background-color: rgb(7, 97, 7);
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer}
