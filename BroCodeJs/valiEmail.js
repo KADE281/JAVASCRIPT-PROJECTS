@@ -1,4 +1,5 @@
 
+
 function isValidEmail(){
     if(email.includes("@")){
         return true;
